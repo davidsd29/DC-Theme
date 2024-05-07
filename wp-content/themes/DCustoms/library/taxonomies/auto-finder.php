@@ -4,7 +4,7 @@ if (! defined('ABSPATH')) {
     exit('Forbidden');
 }
 
-require_once ABSPATH . '/wp-content/themes/DCustoms/vendor/autoload.php';
+require_once ABSPATH . 'vendor/autoload.php';
 
 use Symfony\Component\Finder\Finder;
 
