@@ -35,8 +35,17 @@ wp-config.php
 # htaccess
 /.htaccess
 
+# automatically generated file
+node_modules
+package-lock.json
+yarn-error.log
+
+/conf
+/vendor
+/logs
 # All plugins
 #
+wp-content/plugins/
 # Note: If you wish to whitelist plugins,
 # uncomment the next line
 #/wp-content/plugins
